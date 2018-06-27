@@ -1,5 +1,5 @@
 {
-  "name": "Casalova_Assignment",
+  "name": "CreditsSystem",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Balraj Shah",
@@ -18,8 +18,10 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
     "express": "^4.16.3",
     "knex": "^0.14.6",
+    "mocha": "^5.2.0",
     "password-hash": "^1.2.2",
     "pg": "^7.4.3"
   }
