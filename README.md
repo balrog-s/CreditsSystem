@@ -11,8 +11,9 @@ A platform for allowing users to add, remove and retrieve the credits.
 - Run `docker-compose up` to get the database running unless you already have a local instance up
 - Make sure the knexfile and config.env are pointed at the correct database
 - Run `npm run serve` and you should be good to go
+- To run unit tests ensure your NODE_ENV is set to test and run `npm run test`
 
 ## Future Work
-- Bring a testing framework for unit and integration tests in
+- Bring a testing framework for integration tests in
 - Expand system for authentication and authorization
 - Expand transaction history to account for purchases, and types of rewards (referral vs completed tasks)
