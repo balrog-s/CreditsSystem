@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    env_file: config.env
+    image: platform-db
+    ports:
+      - 5432:5432
